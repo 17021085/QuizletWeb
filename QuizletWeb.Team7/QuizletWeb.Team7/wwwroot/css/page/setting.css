@@ -1,0 +1,66 @@
+
+   
+/* main css */
+.main{
+    width: calc(100% - 280px);
+    background-color:#f6f7fb;
+    height:auto;
+
+}
+    .section-box{
+        margin:40px 40px  ;
+    }
+    .setting-div{
+        height: 200px;
+        width:100%;
+        
+        display: flex;
+        margin-bottom:24px;
+    }    
+     .icon-box{
+        width: 200px;
+        height: 100%;
+        
+    }
+     .setting-box{
+        width: calc(100% - 200px);
+       border-radius: 5px;
+        background-color: #fff;
+        height: 100%;
+        padding:16px;
+        -webkit-box-shadow: 9px 10px 8px -4px rgba(0,0,0,0.13);
+        -moz-box-shadow: 9px 10px 8px -4px rgba(0,0,0,0.13);
+        box-shadow: 9px 10px 8px -4px rgba(0,0,0,0.13);
+      
+    }
+     .setting-box p{
+        font-size: 20px;
+        padding-bottom: 16px;
+
+    }
+    .setting-box .btn-primary{
+       background-color:  #3ccfcf;
+       border: none;
+    }
+    .gg-link .btn-secondary{
+        background-color:  #2124e9;
+     }
+     .setting-box .form-control{
+         border: none;
+         border-bottom:2px solid #9cb4e8; 
+     }
+   #boxa1{
+       border: 3px solid #9cb4e8;
+       padding: 4px;
+       color: #9cb4e8;
+
+   }
+   #slt-1{
+       padding: 6px 12px;
+       background-color:  #3ccfcf;
+       border-radius: 3px;
+       border: none;
+   }
+  
+   
+   
