@@ -10,24 +10,19 @@
 </head>
 
 <body>
-
+    <!-- dùng chung -->
     <div class="container-header">
-
         <div class="header">
             <div class="header-logo">
-                <img src="/content/images/logo.png" alt="">
+                <a href="/page/home/index.html">
+                    <img src="/content/images/logo.png" alt="">
+                </a>
             </div>
             <div class="header-site">
                 <div class="header-search">
                     <button class="btn-search">
                         <div id="btn-header-search">
-                            <svg xmlns='http://www.w3.org/2000/svg' class='ionicon icon-search' viewBox='0 0 512 512'>
-                                <title>Search</title>
-                                <path d='M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z'
-                                    fill='none' stroke='currentColor' stroke-miterlimit='10' stroke-width='32' />
-                                <path fill='none' stroke='currentColor' stroke-linecap='round' stroke-miterlimit='10' stroke-width='32'
-                                    d='M338.29 338.29L448 448' />
-                            </svg>
+                            <img src="/content/icon/magnifying-glass-3-24.png" alt="" height="20px" width="20px">
                             <span>Search</span>
 
                         </div>
@@ -36,7 +31,7 @@
                 <div class="header-create">
                     <button>
                         <div class="header-icon">
-                            <img src="/content/icon/plus-5-24.png" alt="">
+                            <img src="/content/icon/create.jpg" alt="">
                             <span>Create</span>
                         </div>
                     </button>
@@ -54,8 +49,70 @@
     <div class="menu-user">
         <div class="user-nav1">
             <div id="user-ava">
-                <img src="/content/avatar/b6b3.jpg" alt="" height="100%" width="100%">
+                <img src="/content/avatar/b6b3.jpg" alt="" height="50px" width="50px" id="imgkey">
+                <div style="margin-top:10px">
+                    <div>Trung_Nguyen526</div>
+                    <div style="color:aqua">
+                        <a href="#">View Profile</a>
+                    </div>
+                </div>
             </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/headphones.png" alt=""> </div>
+                    <div class="content-mn">Activity</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/next.png" alt="">
+                    </div>
+                    <div class="content-mn">Upgrade</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="/page/setting/index.html">
+                    <div class="icon-mn">
+                        <img src="/content/icon/settings.png" alt="">
+                    </div>
+                    <div class="content-mn">Settings</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/monitor.png" alt="">
+                    </div>
+                    <div class="content-mn">NightMode</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/chat.png" alt="">
+                    </div>
+                    <div class="content-mn">Help Center</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="../home/home.html">
+                    <div class="icon-mn">
+                        <img src="/content/icon/settings-1.png" alt="">
+                    </div>
+                    <div class="content-mn">Privacy policy</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="../home/home.html">
+                    <div class="icon-mn">
+                        <img src="/content/icon/logout.png" alt="">
+                    </div>
+                    <div class="content-mn" style="color:coral">Log out</div>
+                </a>
+            </div>
+
         </div>
     </div>
     <!-- menu -->
@@ -63,7 +120,7 @@
         <div class="menu">
             <div class="sidenav nav-home">
                 <div class="menu-items">
-                    <a href="../home/home.html" class="hover-link-menu">
+                    <a href="../home/index.html" class="hover-link-menu">
                         <div class="menu-icon">
                             <img src="/content/icon/house.png" alt="">
                         </div>
@@ -72,7 +129,7 @@
                 </div>
             </div>
             <div class="sidenav nav-progress">
-                <a href="#" class="hover-link-menu">
+                <a href="/page/progress/index.html" class="hover-link-menu">
                     <div class="menu-icon">
                         <img src="/content/icon/book.png" alt="">
                     </div>
@@ -80,16 +137,16 @@
                 </a>
             </div>
             <div class="sidenav nav-sets">
-                <a href="#" class="hover-link-menu">
+                <a href="../../page/sets/index.html" class="hover-link-menu">
                     <div class="menu-icon">
                         <img src="/content/icon/folder.png" alt="">
                     </div>
                     <div class="menu-title">Set</div>
                 </a>
             </div>
-            
+
             <div class="sidenav nav-folder">
-                <a href="#" class="hover-link-menu">
+                <a href="../../page/folders/index.html" class="hover-link-menu">
                     <div class="menu-icon">
                         <img src="/content/icon/copy.png" alt="">
                     </div>
@@ -99,14 +156,14 @@
             <div class="sidenav nav-sets submenu">
                 <a href="#" class="hover-link-menu">
                     <div class="menu-icon">
-                    
+
                     </div>
                     <div class="menu-title">created a folder</div>
                 </a>
             </div>
-            
+
             <div class="sidenav nav-class">
-                <a href="#" class="hover-link-menu">
+                <a href="../../page/class/index.html" class="hover-link-menu">
                     <div class="menu-icon">
                         <img src="/content/icon/avatar.png" alt="">
                     </div>
@@ -116,164 +173,171 @@
             <div class="sidenav nav-sets submenu2">
                 <a href="#" class="hover-link-menu">
                     <div class="menu-icon">
-                    
+
                     </div>
                     <div class="menu-title">join or create a class</div>
                 </a>
             </div>
         </div>
+        <!-- dùng chung /div-thừa div -->
         <div class="main">
             <div class="section-box">
                 <div class="upgrade setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/airplane.png" alt="" id="box1">
                     </div>
                     <div class="setting-box">
                         <h4>Upgrade to get Quizlet at its best</h4>
                         <p>Get extra features like image uploading and voice recording.</p>
-                        <div id="upgrade"> <button type="button" class="btn btn-primary">Upgrade for 30 days</button></div>
+                        <div id="upgrade">
+                            <button type="button" class="btn btn-primary">Upgrade for 30 days</button>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-picture setting-div">
-                    <div class="icon-box"> Profile Picture</div>
+                    <div class="icon-box">
+                        <img src="/content/images/ava.png" alt="">
+                    </div>
                     <div class="setting-box">
-                       <h4>Choose your profile picture</h4>
-                       <div class="list-img">
-                           zzzzzzz
-                       </div>
-                       <div id="upgrade"> <button type="button" class="btn btn-primary">Upgrade for 30 days</button></div>
+                        <h4>Choose your profile picture</h4>
+                        <div class="list-img">
+
+                        </div>
+                        <div id="upgrade">
+                            <button type="button" class="btn btn-primary">Upgrade for 30 days</button>
+                        </div>
                     </div>
                 </div>
                 <div class="night-mode setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/nightmode.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                      <p style="font-weight:bold">Night Mode</p> 
-                       <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                        <label class="btn btn-secondary active">
-                          <input type="radio" name="options" id="radbox1" autocomplete="off" checked> On
-                        </label>
-                        <label class="btn btn-secondary">
-                          <input type="radio" name="options" id="radbox2" autocomplete="off"> Off
-                        </label>
-                       
-                      </div>
-                        
+                        <p style="font-weight:bold">Night Mode</p>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                                <input type="radio" name="options" id="radbox1" autocomplete="off" checked> On
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="radbox2" autocomplete="off"> Off
+                            </label>
+
+                        </div>
+
                     </div>
                 </div>
                 <div class="acctype setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/account.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                       <h3 style="font-weight:bold"> Teacher or Student account?</h3> 
-                       <p>Select your account type:</p>
-                       <input type="radio" checked name="chose1">   Teacher <br>
-                       <input type="radio" name="chose1">   Student
-                        
+                        <h3 style="font-weight:bold"> Teacher or Student account?</h3>
+                        <p>Select your account type:</p>
+                        <input type="radio" checked name="chose1"> Teacher
+                        <br>
+                        <input type="radio" name="chose1"> Student
+
                     </div>
                 </div>
                 <div class="language setting-div">
-                    <div class="icon-box"> 
-                        <img src="/content/images/world.png" alt="" >
+                    <div class="icon-box">
+                        <img src="/content/images/world.png" alt="">
                     </div>
                     <div class="setting-box">
-                      <div id="boxa1">YOUR LANGUAGE HAS BEEN CHANGED.</div>
-                      <h3>Choose your language</h3>
-                      <select id="slt-1">
-                        <option value="volvo">Viet Nam</option>
-                        <option value="saab">English</option>
-                        <option value="vw">Japan</option>
-                        <option value="audi" selected>Viet Nam</option>
-                      </select>
-                        
+                        <div id="boxa1">YOUR LANGUAGE HAS BEEN CHANGED.</div>
+                        <h3>Choose your language</h3>
+                        <select id="slt-1">
+                            <option value="volvo">Viet Nam</option>
+                            <option value="saab">English</option>
+                            <option value="vw">Japan</option>
+                            <option value="audi" selected>Viet Nam</option>
+                        </select>
+
                     </div>
                 </div>
                 <div class="gg-link setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/face.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                      <h3>Are you on facebook</h3>
-                      <h5>Connect your Quizlet </h5>
-                      <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary" style="font-size:20px;font-weight:bold">f</button>
-                        <button type="button" class="btn btn-secondary">Link your account facebook</button>
-                        
-                      </div>
-                        
+                        <h3>Are you on facebook</h3>
+                        <h5>Connect your Quizlet </h5>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-secondary" style="font-size:20px;font-weight:bold">f</button>
+                            <button type="button" class="btn btn-secondary">Link your account facebook</button>
+
+                        </div>
+
                     </div>
                 </div>
                 <div class="fb-link setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/email.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                    <div><h4 style="font-weight:bold">Update your Email Address</h4></div>
-                    <form>
-                        <div class="form-group row">
-                          
-                          <div class="col-sm-10">
-                            <input type="text"  class="form-control" id="staticEmail" >
-                            <label for="staticEmail"   >New Email</label>
-                          </div>
+                        <div>
+                            <h4 style="font-weight:bold">Update your Email Address</h4>
                         </div>
-                        <div class="form-group row">
-                          
-                          <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword" >
-                            <label for="inputPassword" >Quizlet Password</label>
-                          
-                          </div>
-                        </div>
-                      </form>
-                        
+                        <form>
+                            <div class="form-group row">
+
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="staticEmail">
+                                    <label for="staticEmail">New Email</label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                    <label for="inputPassword">Quizlet Password</label>
+
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
                 <div class="change-email setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/gear.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                        <div><h4 style="font-weight:bold">Login with Facebook</h4></div>
+                        <div>
+                            <h4 style="font-weight:bold">Login with Facebook</h4>
+                        </div>
                         <form>
                             <div class="form-group row">
-                              
-                              <div class="col-sm-10">
-                                <input type="text"  class="form-control" id="staticEmail" >
-                                <label for="staticEmail"   >New Email</label>
-                              </div>
+
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="staticEmail">
+                                    <label for="staticEmail">New Email</label>
+                                </div>
                             </div>
                             <div class="form-group row">
-                              
-                              <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword" >
-                                <label for="inputPassword" >Quizlet Password</label>
-                              
-                              </div>
+
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                    <label for="inputPassword">Quizlet Password</label>
+                                </div>
                             </div>
-                          </form>
-                            
-                        </div>
-                        
-                    
+                        </form>
+                    </div>
                 </div>
-               
-             
-                
                 <div class="privacysetting setting-div">
-                    <div class="icon-box"> 
+                    <div class="icon-box">
                         <img src="/content/images/ia.png" alt="" id="box2">
                     </div>
                     <div class="setting-box">
-                      <div><h4>Permanently delete Trung_Nguyen526</h4></div>
-                      <p>Careful! This will delete all of your data and cannot be undone.</p>
-                      <div><button type="button" class="btn btn-danger">Delete</button></div>
-                        
+                        <div>
+                            <h4>Permanently delete Trung_Nguyen526</h4>
+                        </div>
+                        <p>Careful! This will delete all of your data and cannot be undone.</p>
+                        <div>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
                     </div>
                 </div>
-               
             </div>
         </div>
     </div>

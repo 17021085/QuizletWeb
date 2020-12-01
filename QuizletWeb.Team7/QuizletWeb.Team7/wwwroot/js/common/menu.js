@@ -5,18 +5,24 @@ $(document).ready(function () {
 var mode = true;
 class menuJS{
     constructor(){
+        var me =this;
         this.initEvent();
         }
     initEvent(){
-        $('#user-ava').on('click',mode,this.showUserMenu);
+        $('#user-ava').click(this.showUserMenu);
+        $('body').click(this.hideUserMenu);
     }
+
+
     showUserMenu(){
-        if(mode){
-            $('.menu-user').hide();
-            mode=false;
-        }else if(mode = false)
-        $('.menu-user').hide();
-        mode=true;
+       $('.menu-user').addClass("show-dio");
     }
-    
+
+    hideUserMenu(){
+       var me = this;
+    if(!$(event.target).is('img')){
+            $('.menu-user').removeClass("show-dio");
+        }
+       
+    }
 }

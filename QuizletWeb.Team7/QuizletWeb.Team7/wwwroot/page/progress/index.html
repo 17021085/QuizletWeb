@@ -1,19 +1,409 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <link href="/js/lib/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="/css/common/common.css">
+    <link rel="stylesheet" href="/css/page/setting.css">
+    <link rel="stylesheet" href="/css/page/progress.css">
+
     <title>hello</title>
 </head>
+
 <body>
-   
-    <h1 id="mot"> Hello wworld</h1>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <script src="/js/lib/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
-    <script src="/js/lib/jquery-3.5.1.min.js"></script>
-    <script>
-        $("#mot").css("color", "red");
-    </script>
+    <div class="container-header">
+        <div class="header">
+                <div class="header-logo">
+                        <a href="/page/home/index.html">
+                            <img src="/content/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-site">
+                        <div class="header-search">
+                            <button class="btn-search">
+                                <div id="btn-header-search">
+                                    <img src="/content/icon/magnifying-glass-3-24.png" alt="" height="20px" width="20px">
+                                    <span>Search</span>
+        
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header-create">
+                                <button>
+                                    <div class="header-icon">
+                                        <img src="/content/icon/create.jpg" alt="">
+                                        <span>Create</span>
+                                    </div>
+                                </button>
+                            </div>
+                <div class="header-user">
+                    <div id="user-ava">
+                        <img src="/content/avatar/b6b3.jpg" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- dialog nav -->
+    <div class="menu-user">
+        <div class="user-nav1">
+            <div id="user-ava">
+                <img src="/content/avatar/b6b3.jpg" alt="" height="50px" width="50px" id="imgkey">
+                <div style="margin-top:10px">
+                    <div>Trung_Nguyen526</div>
+                    <div style="color:aqua">
+                        <a href="#">View Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/headphones.png" alt=""> </div>
+                    <div class="content-mn">Activity</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/next.png" alt="">
+                    </div>
+                    <div class="content-mn">Upgrade</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="/page/setting/index.html">
+                    <div class="icon-mn">
+                        <img src="/content/icon/settings.png" alt="">
+                    </div>
+                    <div class="content-mn">Settings</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/monitor.png" alt="">
+                    </div>
+                    <div class="content-mn">NightMode</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="">
+                    <div class="icon-mn">
+                        <img src="/content/icon/chat.png" alt="">
+                    </div>
+                    <div class="content-mn">Help Center</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                <a href="../home/home.html">
+                    <div class="icon-mn">
+                        <img src="/content/icon/settings-1.png" alt="">
+                    </div>
+                    <div class="content-mn">Privacy Setting</div>
+                </a>
+            </div>
+            <div class="user-menu-dio">
+                    <a href="../home/home.html">
+                        <div class="icon-mn">
+                            <img src="/content/icon/logout.png" alt="">
+                        </div>
+                        <div class="content-mn" style="color:coral">Log out</div>
+                    </a>
+                </div>
+
+        </div>
+    </div>
+    <!-- menu -->
+    <div class="dashboard-container">
+        <div class="menu">
+            <div class="sidenav nav-home">
+                <div class="menu-items">
+                    <a href="../home/index.html" class="hover-link-menu">
+                        <div class="menu-icon">
+                            <img src="/content/icon/house.png" alt="">
+                        </div>
+                        <div class="menu-title">Home</div>
+                    </a>
+                </div>
+            </div>
+            <div class="sidenav nav-progress">
+                <a href="/page/progress/index.html" class="hover-link-menu">
+                    <div class="menu-icon">
+                        <img src="/content/icon/book.png" alt="">
+                    </div>
+                    <div class="menu-title">Progress</div>
+                </a>
+            </div>
+            <div class="sidenav nav-sets">
+                <a href="/page/sets/index.html" class="hover-link-menu">
+                    <div class="menu-icon">
+                        <img src="/content/icon/folder.png" alt="">
+                    </div>
+                    <div class="menu-title">Set</div>
+                </a>
+            </div>
+
+            <div class="sidenav nav-folder">
+                <a href="../../page/folders/index.html" class="hover-link-menu">
+                    <div class="menu-icon">
+                        <img src="/content/icon/copy.png" alt="">
+                    </div>
+                    <div class="menu-title">Folder</div>
+                </a>
+            </div>
+            <div class="sidenav nav-sets submenu">
+                <a href="#" class="hover-link-menu">
+                    <div class="menu-icon">
+
+                    </div>
+                    <div class="menu-title">created a folder</div>
+                </a>
+            </div>
+
+            <div class="sidenav nav-class">
+                <a href="../../page/class/index.html" class="hover-link-menu">
+                    <div class="menu-icon">
+                        <img src="/content/icon/avatar.png" alt="">
+                    </div>
+                    <div class="menu-title">Class</div>
+                </a>
+            </div>
+            <div class="sidenav nav-sets submenu2">
+                <a href="#" class="hover-link-menu">
+                    <div class="menu-icon">
+
+                    </div>
+                    <div class="menu-title">join or create a class</div>
+                </a>
+            </div>
+            
+        </div>
+        <div class="main">
+                <div class="DashbroadPage-main">
+                    <div class="DashbroadPage-headerContainer">
+                        <div class="DashbroadPage-headerContainer-content">
+                            <div class="DashbroadPage-headerContainer-contentLeft">
+                                <h1 class="Progress-on-Quizlet">New! Progress on Quizlet</h1>
+                                <div class="with_the_learing">
+                                    <span>With the Learning Assistant you can track your studying across study modes so you know where
+                                        to focus next. You've got to see it to achieve it!</span>
+                                </div>
+                            </div>
+                            <div class="DashbroadPage-headerContainer-contentRight">
+                                <img src="/content/images/headerProcess.PNG" alt=" headerProgress" class="picture1">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="DashbroadPage-screenshotContainer">
+                        <div class="DashbroadPage-screenshot">
+                            <div class="DashbroadPage-screenshotHeader">
+                                <div class="UIContain">
+                                    <div class="DashbroadPage-screenshotHeader-Title">
+                                        <span id="title-process">Progress</span>
+                                    </div>
+                                    <div class="DashbroadPage-screenshotHeader-Tabs">
+                                        <div class="DashbroadPage-screenshotHeader-Tabs-Sets">
+                                            <span>Sets</span>
+                                        </div>
+                                        <div class="DashbroadPage-screenshotHeader-Tabs-Classes">
+                                            <span>Classes</span>
+                                        </div>
+                                        <div class="DashbroadPage-screenshotHeader-Tabs-Folders">
+                                            <span>Folders</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+    
+                                <div class="DashbroadPage-screenshotHeader-Cards">
+                                    <div class="DashbroadPage-screenshotHeader-Cards_number">
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_left">
+                                            <div class="Cards_content_title">
+                                                <span>Capital cities</span>
+                                            </div>
+                                            <div class="Cards_content_detail">
+                                                <div class="Cards_content_detail_numTerm">
+                                                    <span>152 terms</span>
+                                                </div>
+                                                <div class="Cards_content_detail_Author">Lutalutu</div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_right">
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">NOT STUDIED</div>
+                                                <div class="progressBucketItem_number">86</div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">STILL LEARNING</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color:#f08700">12</span>
+                                                </div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">MASTERED</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color: #23b26d;">40</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+    
+                                    <div class="DashbroadPage-screenshotHeader-Cards_number">
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_left">
+                                            <div class="Cards_content_title">
+                                                <span>Human Biology</span>
+                                            </div>
+                                            <div class="Cards_content_detail">
+                                                <div class="Cards_content_detail_numTerm">
+                                                    <span>127 terms</span>
+                                                </div>
+                                                <div class="Cards_content_detail_Author">De Choat</div>
+                                            </div>
+                                        </div>
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_right">
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">NOT STUDIED</div>
+                                                <div class="progressBucketItem_number">88</div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">STILL LEARNING</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color:#f08700">19</span>
+                                                </div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">MASTERED</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color: #23b26d;">26</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <div class="DashbroadPage-screenshotHeader-Cards_number">
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_left">
+                                            <div class="Cards_content_title">
+                                                <span>Data Analyst</span>
+                                            </div>
+                                            <div class="Cards_content_detail">
+                                                <div class="Cards_content_detail_numTerm">
+                                                    <span>98 terms</span>
+                                                </div>
+                                                <div class="Cards_content_detail_Author">G.Ducky</div>
+                                            </div>
+                                        </div>
+                                        <div class="DashbroadPage-screenshotHeader-Cards-content_right">
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">NOT STUDIED</div>
+                                                <div class="progressBucketItem_number">69</div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">STILL LEARNING</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color:#f08700">35</span>
+                                                </div>
+                                            </div>
+                                            <div class="progressBucketItem">
+                                                <div class="progressBucketItem_title">MASTERED</div>
+                                                <div class="progressBucketItem_number">
+                                                    <span style="color: #23b26d;">74</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="DashboardUpsell-features">
+                        <div class="DashboardUpsell-features-content-Container">
+                            <div class="DashboardUpsell-features-content">
+                                <div class="DashboardUpsell-features-content-Title">
+                                    <span>Break it down and progress with confidence</span>
+                                </div>
+                                <div class="DashboardUpsell-features-content-description">
+                                    <span>Welcome to effcient studying.With the full view, you can save time and study smarter by focusing
+                                        on the terms you need master.</span>
+                                </div>
+                                <div class="DescriptionCard">
+                                    <div class="DescriptionCard_container">
+                                        <div class=" DescriptionCard_picture">
+                                            <img src="/content/images/Process1.PNG" alt="DescriptionCard_picture_one" class="progress_picture">
+                                        </div>
+                                        <div class="Content-Title">
+                                            <span>Everthing is one place</span>
+                                        </div>
+                                        <div class="Content_description">
+                                            <span>On your Progress dashbroad you can see and search through all your sets.Switch to
+                                                see the classes view or the folder view.</span>
+                                        </div>
+                                    </div>
+                                    <div class="DescriptionCard_container">
+                                        <div class=" DescriptionCard_picture">
+                                            <img src="/content/images/Process2.PNG" alt="DescriptionCard_picture_one" class="progress_picture">
+                                        </div>
+                                        <div class="Content-Title">
+                                            <span>Shortcuts to save you time</span>
+                                        </div>
+                                        <div class="Content_description">
+                                            <span>Only have a few minutes? Click on part of a set to study only the terms you’ve never
+                                                studied before, or focus on what you’re still learning.</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="DescriptionCard_container">
+                                        <div class="DescriptionCard_picture">
+                                            <img src="/content/images/Process3.PNG" alt="DescriptionCard_picture_one" class="progress_picture">
+                                        </div>
+                                        <div class="Content-Title">
+                                            <span>Celebrate your smarts</span>
+                                        </div>
+                                        <div class="Content_description">
+                                            <span>Watch the wins stack up to Mastered status and walk into your next test with full
+                                                confidence in your abilities.</span>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+    
+    
+    
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="DashboardUpsell-Footer">
+                        <div class="DashboardUpsell-Footer-Content">
+                            <h2 class="DashboardUpsell-Footer-Content-title">
+                                <span class="ProgressDashboardUpsellFooter-footerText">
+                                    <span>Stay one step ahead</span>
+                                </span>
+                            </h2>
+                            <div class="Start_trial">
+                                <button type="button" onclick="start.php" class="start_for_free">Start your free trial</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+        <script src="/js/lib/jquery-3.5.1.min.js"></script>
+        <script src="/js/lib/bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        <script src="/js/common/menu.js"></script>
+
 </body>
+
 </html>

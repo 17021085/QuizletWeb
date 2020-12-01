@@ -1,0 +1,338 @@
+
+
+.DashbroadPage-main{
+    width: 100%;
+    /* height: 1720px; */
+}
+.DashbroadPage-headerContainer{
+    width: 100%;
+    height: 419px;
+    background-color: #fff4e5;
+}
+.DashbroadPage-headerContainer-content{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.DashbroadPage-headerContainer-contentLeft{
+    width: 62%;
+    height: 100%;
+    float: left;
+}
+.DashbroadPage-headerContainer-contentRight{
+    width: 30%;
+    height: 100%;
+    background-color: #131390;
+    float: left;
+}
+
+
+
+.picture1{
+    margin-top: 0px;
+    width: 530px;
+    height: 419px
+
+}
+.Progress-on-Quizlet{
+    font-size: 3rem;
+    letter-spacing: normal;
+    line-height: 1.272727;
+    font-weight: 700;
+    margin-top: 75px;
+}
+.with_the_learing{
+    font-weight: 400;
+    width: 65%;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    letter-spacing: normal;
+}
+
+
+
+
+
+.DashbroadPage-screenshotContainer{
+    width: 100%;
+    height: 441px;
+    background-color: #ffffff;
+}
+.DashbroadPage-screenshot{
+    width: 1020px;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0 auto; 
+    border-radius: 0.5rem;
+}
+.DashbroadPage-screenshotHeader{
+    width: 100%;
+    height: 121px;
+}
+.UIContain{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 81.25em;
+    padding: 0 2.5rem
+}
+.DashbroadPage-screenshotHeader-Title{
+    height: 40px;
+}
+#title-process{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: normal;
+    line-height: 1.25
+}
+.DashbroadPage-screenshotHeader-Tabs{
+    height: 33px;
+    background-color: #ffffff;
+    margin-top: 1.5rem;
+}
+.DashbroadPage-screenshotHeader-Cards{
+    background-color: #f6f7fb;
+    /* width: 940px; */
+    margin: 0 auto;
+    height: 320px;
+}
+.DashbroadPage-screenshotHeader-Cards_number{
+    margin-top: 20px;
+    padding-top: 0px;
+    height: 80px;
+    border-radius: .5rem;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.08);
+    background-color: #fff;
+}
+
+.DashbroadPage-screenshotHeader-Tabs-Sets{
+    border-bottom: solid;
+    color: #23b26d;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1.428571428571429;
+    padding-bottom: .5rem;
+    margin-right: 2rem;
+}
+
+.DashbroadPage-screenshotHeader-Cards-content_left{
+    border-radius: 0.5rem;
+    background-color:#ffffff;
+    overflow: auto;
+    overflow-wrap: anywhere;
+    padding: .75rem 1.5rem .75rem 1.25rem;
+    width: 50%;
+}
+
+.Cards_content_title{
+    color: #1a1d28;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+    margin-bottom: .25rem;
+}
+
+.Cards_content_detail{
+    width: 80%;
+    height: 40%;
+    font-size: 1.1rem;
+}
+.Cards_content_detail_numTerm{
+    width: 30%;
+    height: 100%;
+    float: left;
+    color: #939bb4;
+}
+.Cards_content_detail_Author{
+    height: 100%;
+    float: left;
+    width: 60%;
+    padding-left: 1.5rem;
+    color: #3ccfcf;
+}
+
+
+
+
+
+
+
+
+/* Not Studied....*/
+.DashbroadPage-screenshotHeader-Cards-content_right{
+    height: 100%;
+    width: 50%
+}
+.progressBucketItem{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.progressBucketItem_title{
+    height: 36%;
+    color: #939bb4;
+    font-size: 0.9rem;
+    width: 100%;
+    padding-top: 10%;
+    /* margin-top: 2rem; */
+    font-weight: 400;
+    text-align: center;
+}
+.progressBucketItem_number{
+    text-align: center;
+    height: 50%;
+    width: 100;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4257b2;
+}
+
+
+
+/* div tag cho phan Sets, Classes,Folders */
+.DashbroadPage-screenshotHeader-Tabs-Classes{
+    border-bottom: .125rem solid transparent;
+    color: #939bb4;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1.428571428571429;
+    padding-bottom: .5rem;
+    margin-right: 2rem;
+}
+
+.DashbroadPage-screenshotHeader-Tabs-Folders{
+    border-bottom: .125rem solid transparent;
+    color: #939bb4;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    line-height: 1.428571428571429;
+    padding-bottom: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.DashboardUpsell-features{
+    width: 100%;
+    height: 660px;
+    background-color: #ffffff;
+}
+.DashboardUpsell-features-bottom{
+    width: 1020px;
+    height: 100%;
+    background-color: #c2c2c2;
+    margin: 0 auto; 
+    border-radius: 0.5rem;
+}
+.DashboardUpsell-features-content-Container{
+    width: 1188px;
+    padding-top: 70px;
+    height: 89%;
+    background-color:  white;
+    margin: 0 auto;
+}
+.DashboardUpsell-features-content{
+    padding: 0 2.5rem;
+}
+
+
+
+.DashboardUpsell-features-content-Title{
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: normal;
+    line-height: 1.333333333333333;
+    margin-bottom: 1.5rem
+}
+.DashboardUpsell-features-content-description{
+    font-weight: 400;
+    font-size: 1.35rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.DescriptionCard{
+    width:100%;
+}
+.DescriptionCard_container{
+    padding-left: 10px;
+    width: 360px;
+    float: left;
+    padding-right: 50px;
+
+}
+.progress_picture{
+    width: 262px;
+    height: 216px;
+}
+
+
+.Content-Title{
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+    padding: 1.5rem 0 1rem;
+}
+.Content_description{
+    font-weight: 400;
+    font-size: 1.154rem;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+
+
+.DashboardUpsell-Footer{
+    clear: both;
+    width: 100%;
+    height: 272px;
+    background-color:#ff725b24 ;
+}
+.DashboardUpsell-Footer-Content{
+    height: 100%;
+    background-color: #ffebe8;
+    margin: 0 auto;
+    width: 479px;
+    text-align: center
+}
+.DashboardUpsell-Footer-Content-title{
+    font-size: 2.5rem;
+    line-height: -2.75rem;
+    letter-spacing: normal;
+    padding-top: 70px;
+}
+.start_for_free{
+    border: solid;
+    padding: 20px 20px;
+    font-size: 1.2rem;
+    background-color: #3ccfcf;
+    border-radius: 0.5rem;
+    color: white;
+    border-color: #ffebe8;
+    cursor: pointer;
+}
+.start_for_free:hover{
+    background-color: #178282;
+}
