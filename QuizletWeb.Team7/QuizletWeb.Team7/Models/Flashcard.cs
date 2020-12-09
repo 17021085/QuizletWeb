@@ -22,6 +22,8 @@ namespace QuizletWeb.Team7.Models
         [Column("descriptioncard")]
         [StringLength(250)]
         public string Descriptioncard { get; set; }
+        [Column("image")]
+        public string Image { get; set; }
 
         [ForeignKey(nameof(Classid))]
         [InverseProperty(nameof(Classcard.Flashcard))]

@@ -68,3 +68,9 @@ font-weight: bold
     min-width:100px;
     padding-left:12px; 
 }
+.main a{
+    text-decoration: none;
+}
+.main a:hover{
+    text-decoration: none;
+}

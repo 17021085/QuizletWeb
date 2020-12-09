@@ -1,0 +1,47 @@
+.list-set{
+    margin:20px 40px;
+    display:flex;
+    text-decoration: none;
+}
+.doc-icon img{
+    height: 100%;
+    
+}
+.doc-icon{
+    width: 150px;
+}
+.doc-set{
+    background-color: #e9e9e9;
+    padding: 20px;
+    width: calc(100% - 150px);
+}
+.name-class{
+    color: darkcyan;
+}
+.inner-cr{
+    background-color:#e9e9e9;
+    width:100%;
+    height:100%;
+}
+.container-cr{
+    width:400px;
+    height:225px;
+    margin:10px;
+}
+    .container-cr h3 {
+        left: 50%;
+        position: relative;
+        line-height: 215px;
+    }
+    container-cr img{
+        height:100%;
+        width:100%;
+    }
+    #dialog {
+        width:400px;
+        height:225px;
+    }
+        .ui-widget{
+            width:30px;
+            height:24px
+        }
